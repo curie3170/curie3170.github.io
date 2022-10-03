@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Project Hail Mary"
+title: "Project Hail Mary by Andy Wier"
+excerpt: "Completed Sept. 30th, 2022"
 ---
 
 A timid and cowardly, Ryland Grace was a pure and good man. Even as a scientist, pure curiosity, passion, and good intentions overcame his fears and fears every time. 
