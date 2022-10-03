@@ -3,7 +3,7 @@
 title: Curie Kim
 description: Computer Vision Researcher | Gwangju Institute of Science and Technology |
 
-baseurl: /gradfolio #name of GitHub repository
+baseurl:  #name of GitHub repository
 url: "https://curie3170.github.io/" #custom url to be used instead of GitHub repository
 email: #
 
