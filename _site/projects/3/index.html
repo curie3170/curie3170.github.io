@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/gradfolio/assets/css/main.css">
+
+        <h1 class="post-headline">Curie Kim</h1>
+        <h3 class="post-description">Computer Vision Researcher | Gwangju Institute of Science and Technology |</h3>
+
+        <div class="links scroll">
+        <a href="/gradfolio/">Home</a>
+        <a href="/gradfolio/projects/">Projects</a>
+        <a href="/gradfolio/blog/">Blog</a>
+        <a href="/gradfolio/archive/">Archive</a>
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>AI World Cup (2019) | Curie Kim</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="AI World Cup (2019)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Move to project summary" />
+<meta property="og:description" content="Move to project summary" />
+<link rel="canonical" href="http://localhost:4000/gradfolio/projects/3/" />
+<meta property="og:url" content="http://localhost:4000/gradfolio/projects/3/" />
+<meta property="og:site_name" content="Curie Kim" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-10-04T03:41:27+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="AI World Cup (2019)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-10-04T03:41:27+09:00","datePublished":"2022-10-04T03:41:27+09:00","description":"Move to project summary","headline":"AI World Cup (2019)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/gradfolio/projects/3/"},"url":"http://localhost:4000/gradfolio/projects/3/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- Generated using https://favicon.io/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?">
+<link rel="manifest" href=site.webmanifest">
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <h1 class="post-headline">AI World Cup (2019)</h1>
+<p class="meta"><small>October 04, 2022</small></p>
+
+<h1 id="deep-q-network-for-ai-soccer-curie-kim-yewon-hwang-jong-hwan-kim">Deep Q-Network for AI Soccer, Curie Kim, Yewon Hwang, Jong-Hwan Kim</h1>
+<p>Accepted in <em>The 10th International Conference on Robot Intelligence Technology and Application (RiTA 2022)</em></p>
+<ul>
+  <li>Ranked in Top 16 at the WCG 2019 Xi’an AI Masters.</li>
+  <li>arXiv link is <a href="https://arxiv.org/abs/2209.09491" target="_blank" rel="noopener noreferrer">here</a>
+</li>
+</ul>
+
+<h1 id="simulation-environment">Simulation Environment</h1>
+<p><img src="https://user-images.githubusercontent.com/17980462/193639542-8621f02e-1e94-4ab9-a37f-cc23f9693aec.png" alt="image" height="360px">\</p>
+
+<p>We used the AI Soccer environment proposed by Hong, C.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> (available at <a href="https://github.com/aiwc/test_world" target="_blank" rel="noopener noreferrer">here</a>) for the experiment. AI Soccer is a 5:5 robot soccer game where each team is composed of one goalkeeper, two defenders, and two forwards. However, the role does not affect the robots’ capabilities: the only difference between each player is its specifications and initial position. The game is comprised of 5 minutes first half and 5 minutes second half. At the beginning of each half and after a team makes a goal, kick-off happens where only the second forward player of the ball owner’s team can move.</p>
+
+<h1 id="our-strategy">Our strategy</h1>
+<p>For state space, we define 22 states to train the agents. The robots’ coordinate and orientation values as well as the ball’s positions and orientations were provided through Webots throughout the game. All the positions were provided in meters in a Cartesian coordinate system, and the orientations were provided in radian. We first defined the x, y, and $\theta$ values of each player excluding the goalkeeper, and applied a regularization process to each value to avoid the risk of overfitting. Since there are two defense players and two forward players, 12 states are defined thus far. We also provided boolean information that indicates whether a player is active or inactive, in case a player is dismissed due to varying reasons for both forward and defense players as a state, which makes 16 states in total thus far. In addition, we provided 4 more states which are two x and y values of the ball that have undergone the regularization process. The reason we gave each x and y value twice is to give more weight to the values because we consider that information about the ball was the most critical information when training the agents. Lastly, we also provided x and y values of the ball after two frames from the current frame that have undergone the regularization process. The motivation behind the last two states is to train the agents so that they can predict the position of the ball in the next two frames and act accordingly in favor of our team. Therefore, there are 22 states in total as follows:</p>
+
+\[s = \{ 4_{(F1,F2, D1, D2)} \times (player\_x, player\_y, player\_\theta, is\_active), \\ 2 \times (ball\_x, ball\_y), (predicted\_ball\_x, predicted\_ball\_y) \}.\]
+
+<h1 id="competition-video">Competition Video</h1>
+<p>Our team is CY95!</p>
+
+<p><a href="https://youtu.be/nUqM2jiPYYE" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/nUqM2jiPYYE/maxresdefault.jpg" alt="Demo CountPages alpha"></a></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Some footnote text. Hong, C., Jeong, I., Vecchietti, L.F., Har, D., Kim, J.H.: Ai world cup: Robot-soccer-based competitions. IEEE Transactions on Games 13(4) (2021) 330–341 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+
+<!-- Comments only for posts -->
+
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Curie Kim 2022
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/" rel="noopener noreferrer">Gradfolio</a>.
+                    Last updated on 04 October 2022
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button linkedin" href="https://www.linkedin.com/in/https://www.linkedin.com/in/curie-kim-219a78190/" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/https://github.com/curie3170" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a><a title="" class="social-button google" itemprop="sameAs" href="https://scholar.google.com/https://scholar.google.com/citations?user=DN1ps7wAAAAJ" target="_blank" rel="noopener noreferrer">
+<i class="fa fa-graduation-cap"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>

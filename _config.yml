@@ -1,10 +1,10 @@
 ### your site title here
 
-title: Cuire Kim
+title: Curie Kim
 description: Computer Vision Researcher | Gwangju Institute of Science and Technology |
 
 baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+url: "https://github.com/curie3170/curie3170.github.io.git/" #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination

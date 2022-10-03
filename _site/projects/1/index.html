@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/gradfolio/assets/css/main.css">
+
+        <h1 class="post-headline">Curie Kim</h1>
+        <h3 class="post-description">Computer Vision Researcher | Gwangju Institute of Science and Technology |</h3>
+
+        <div class="links scroll">
+        <a href="/gradfolio/">Home</a>
+        <a href="/gradfolio/projects/">Projects</a>
+        <a href="/gradfolio/blog/">Blog</a>
+        <a href="/gradfolio/archive/">Archive</a>
+</div>
+
+
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Cross-View Road Layout Estimation (2022) | Curie Kim</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Cross-View Road Layout Estimation (2022)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Move to project summary" />
+<meta property="og:description" content="Move to project summary" />
+<link rel="canonical" href="http://localhost:4000/gradfolio/projects/1/" />
+<meta property="og:url" content="http://localhost:4000/gradfolio/projects/1/" />
+<meta property="og:site_name" content="Curie Kim" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-10-04T03:41:27+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Cross-View Road Layout Estimation (2022)" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-10-04T03:41:27+09:00","datePublished":"2022-10-04T03:41:27+09:00","description":"Move to project summary","headline":"Cross-View Road Layout Estimation (2022)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/gradfolio/projects/1/"},"url":"http://localhost:4000/gradfolio/projects/1/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+        <!-- Generated using https://favicon.io/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?">
+<link rel="manifest" href=site.webmanifest">
+
+
+        <!-- MathJax -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+     processEscapes: true
+    }
+  });
+</script>
+
+
+        <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
+        <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <h1 class="post-headline">Cross-View Road Layout Estimation (2022)</h1>
+<p class="meta"><small>October 04, 2022</small></p>
+
+<h1 id="a-dual-cycled-cross-view-transformer-network-for-unified-road-layout-estimation-and-3d-object-detection-in-the-birds-eye-view-curie-kim-and-ue-hwan-kim">A Dual-Cycled Cross-View Transformer Network for Unified Road Layout Estimation and 3D Object Detection in the Bird’s-Eye-View, Curie Kim, and Ue-Hwan Kim</h1>
+<ul>
+  <li>Submitted in <em>The 2023 International Conference on Robot Intelligence Technology and Application (2023 ICRA)</em>
+</li>
+  <li>Github Repo is <a href="https://github.com/AutoCompSysLab/DCTNet" target="_blank" rel="noopener noreferrer">here</a>.</li>
+  <li>arXiv link is <a href="https://arxiv.org/abs/2209.08844" target="_blank" rel="noopener noreferrer">here</a>
+</li>
+</ul>
+
+<h1 id="network-architecture">Network Architecture</h1>
+<p><img src="https://user-images.githubusercontent.com/17980462/191461740-47ae6379-439a-4af3-bed9-ff60cc678b8d.png" alt="example image">
+The proposed dual-cycled cross-view transformer (DCT) architecture. The DCT network requires both the top-view layout and the front-view
+images for training; these two inputs get transformed to another feature representation for the dual cycle loss. When deployed, the DCT network receives just a front-view image to predict the road layout and detect objects</p>
+
+<h1 id="abstract">Abstract</h1>
+<p>The bird’s-eye-view (BEV) representation allows robust learning of multiple tasks for autonomous driving including road layout estimation and 3D object detection. However, contemporary methods for unified road layout estimation and 3D object detection rarely handle the class imbalance of the training dataset and multi-class learning to reduce the total number of networks required. To overcome these limitations, we propose a unified model for road layout estimation and 3D object detection inspired by the transformer architecture and the CycleGAN learning framework. The proposed model deals with the performance degradation due to the class imbalance of the dataset utilizing the focal loss and the proposed dual cycle loss. Moreover, we set up extensive learning scenarios to study the effect of multi-class learning for road layout estimation in various situations. To verify the effectiveness of the proposed model and the learning scheme, we conduct a thorough ablation study and a comparative study. The experiment results attest the effectiveness of our model; we achieve state-of-the-art performance in both the <strong>road layout estimation</strong> and <strong>3D object detection</strong> tasks.</p>
+
+<h1 id="results">Results</h1>
+
+<ul>
+  <li><strong>Single class learning</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Dataset</th>
+      <th style="text-align: center">Segmentation Objects</th>
+      <th style="text-align: center">     mIOU(%)      </th>
+      <th style="text-align: center">     mAP(%)     </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">KITTI 3D Object</td>
+      <td style="text-align: center">Vehicle</td>
+      <td style="text-align: center">39.44</td>
+      <td style="text-align: center">58.89</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">KITTI Odometry</td>
+      <td style="text-align: center">Road</td>
+      <td style="text-align: center">77.15</td>
+      <td style="text-align: center">88.28</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">KITTI Raw</td>
+      <td style="text-align: center">Road</td>
+      <td style="text-align: center">65.86</td>
+      <td style="text-align: center">86.56</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Argoverse Tracking</td>
+      <td style="text-align: center">Vehicle</td>
+      <td style="text-align: center">48.04</td>
+      <td style="text-align: center">68.96</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Argoverse Tracking</td>
+      <td style="text-align: center">Road</td>
+      <td style="text-align: center">76.71</td>
+      <td style="text-align: center">88.87</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>Multi class learning</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Dataset</th>
+      <th style="text-align: center">Segmentation Objects</th>
+      <th style="text-align: center">     mIOU(%)      </th>
+      <th style="text-align: center">     mAP(%)     </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Argoverse Tracking</td>
+      <td style="text-align: center">Vehicle</td>
+      <td style="text-align: center">31.75</td>
+      <td style="text-align: center">46.20</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Argoverse Tracking</td>
+      <td style="text-align: center">Road</td>
+      <td style="text-align: center">74.73</td>
+      <td style="text-align: center">86.76</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="result-images">Result Images</h1>
+
+<p><img src="https://user-images.githubusercontent.com/17980462/191462025-9de54e5d-dc55-4bda-ac81-b8c788a6be95.png" alt="example image" title="An exemplary image">
+<img src="https://user-images.githubusercontent.com/17980462/191462014-22d4f561-7ded-4cdf-9e5d-db7cdbb0aa48.png" alt="example image" title="An exemplary image"></p>
+
+
+<!-- Comments only for posts -->
+
+
+            </article>
+        </main>
+
+        <footer>
+          <p class="copy">
+            <small> © Curie Kim 2022
+                    | Powered by Jekyll and
+                    <a target="_blank" href="https://github.com/jitinnair1/gradfolio/" rel="noopener noreferrer">Gradfolio</a>.
+                    Last updated on 04 October 2022
+            </small>
+          </p>
+
+        <div class="rounded-social-buttons">
+<a title="" class="social-button linkedin" href="https://www.linkedin.com/in/https://www.linkedin.com/in/curie-kim-219a78190/" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-linkedin"></i>
+</a><a title="" class="social-button github" href="https://www.github.com/https://github.com/curie3170" itemprop="sameAs" target="_blank" rel="noopener noreferrer">
+<i class="fab fa-github"></i>
+</a><a title="" class="social-button google" itemprop="sameAs" href="https://scholar.google.com/https://scholar.google.com/citations?user=DN1ps7wAAAAJ" target="_blank" rel="noopener noreferrer">
+<i class="fa fa-graduation-cap"></i>
+</a>
+</div>
+
+
+        </footer>
+
+        <!-- Google Analytics Tracking code -->
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = '';
+</script>
+
+    </body>
+
+</html>
