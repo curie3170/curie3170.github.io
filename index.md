@@ -6,7 +6,7 @@ profile:
   image: 4.jpg
 published: true
 ---
-Hello, I am Curie Kim and I am currently working as a Computer Vision Researcher at Gwangju Institute  of Science and Technology (GIST).
+Hello, I am Curie Kim, currently working as a Computer Vision Researcher at Gwangju Institute  of Science and Technology (GIST).
 I am focusing on deep learning, especially 3D computer vision and SLAM for autonomous driving and robot vision. [[CV]](http://localhost:4000/gradfolio/) [[SoP]](http://localhost:4000/gradfolio/) 
 
 Before joining GIST, I worked for 20 months as a CMOS image sensor software developer at Samsung Electronics' Advanced Sensor Development Team.

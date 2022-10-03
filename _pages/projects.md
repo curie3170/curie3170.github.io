@@ -28,11 +28,12 @@ published: true
 
   <div class="projectTile">
           <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
-          <span>
-              <h2>{{ project.title }}</h2>
+          <div>
               <br/>
-              <p>{{ project.description }}</p>
-          </span>
+              <img src ="{{project.image}}" height="180">
+              <h3>{{ project.title }}</h3><br/>
+              <!--<p>{{ project.description }}</p>-->
+          </div>
           </a>
   </div>
 
