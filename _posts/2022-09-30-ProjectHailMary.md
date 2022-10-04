@@ -4,9 +4,9 @@ title: "Project Hail Mary by Andy Wier"
 excerpt: "Completed Sept. 30th, 2022"
 ---
 
-A timid and cowardly, Ryland Grace was a pure and good man. Even as a scientist, pure curiosity, passion, and good intentions overcame his fears and fears every time. 
+A timid and cowardly, Ryland Grace was a pure and good man. Even as a scientist, pure curiosity, passion, and good intentions overcame his fears. 
 He constantly longed for survival, but in the face of the final conflict, he chose friendship over survival. 
-A coward's friendship aroused a goodwill that even he himself could surpass. 
+A coward's friendship aroused a goodwill that even surpass his fears. 
 It was an interesting read, and I hope you all check the ending.
 
 
