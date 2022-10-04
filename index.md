@@ -10,7 +10,7 @@ Hello, I am Curie Kim, currently working as a Computer Vision Researcher at [the
 I am focusing on deep learning, especially 3D computer vision and SLAM for autonomous driving and robot vision. [[CV]](http://localhost:4000/gradfolio/) [[SoP]](http://localhost:4000/gradfolio/) 
 
 Before joining GIST, I worked for 20 months as a CMOS image sensor software developer at Samsung Electronics' Advanced Sensor Development Team.
-I earned my M.S. in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) in 2021 under the guidance of Jong-Hwan Kim at [the RIT Lab](https://rit.kaist.ac.kr/).
+I earned my M.S. in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) in 2021 under the guidance of Prof. Jong-Hwan Kim at [the RIT Lab](https://rit.kaist.ac.kr/).
 I recieved my B.S. in Electrical Engineering from Korea University in 2019. 
 
 I also love to crossfit, freediving, hiking and camping!
