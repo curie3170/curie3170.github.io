@@ -16,6 +16,13 @@ I recieved my B.S. in Electrical Engineering from Korea University in 2019.
 I also love to crossfit, freediving, hiking and camping!
 
 
+---
+<span style="font-size:90%;  color:grey">**Contact Information**<br>
+Room# 402, GIST C11, Cheomdangwagi-ro 123, Gwangju, Republic of Korea<br>
+Email: curie3170@gmail.com</span>  
+
+
+
 <!-- [Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
 
 If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
