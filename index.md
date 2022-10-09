@@ -6,7 +6,7 @@ profile:
   image: 4.jpg
 published: true
 ---
-Hello, I am Curie Kim, currently working as a Computer Vision Researcher at [the ACSL](https://uehwan.github.io/) of Gwangju Institute  of Science and Technology (GIST).
+Hello, I am Curie Kim, currently working as a Research Scientist at [the ACSL](https://uehwan.github.io/) of Gwangju Institute of Science and Technology (GIST).
 I am focusing on deep learning, especially 3D computer vision and SLAM for autonomous driving and robot vision. [[CV]](https://drive.google.com/file/d/1PPcZSP5WeB3AFImjJyx93e7VqUvmsQPU/view?usp=sharing) [[SoP]](TBD) 
 
 Before joining GIST, I worked for 20 months as a CMOS image sensor software developer at Samsung Electronics' Advanced Sensor Development Team.
