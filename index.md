@@ -16,7 +16,7 @@ I recieved my B.S. in Electrical Engineering from Korea University in 2019.
 I also love to crossfit, freediving, hiking and camping!
 
 ### Also, check out:
-- <a style="color: #60c17d;" href="https://drive.google.com/file/d/1PPcZSP5WeB3AFImjJyx93e7VqUvmsQPU/view?usp=sharing"><b>CV</b></a>
+- <a style="color: #60c17d;" href="https://drive.google.com/file/d/1RmAnsYtWYOeLATGOfxzdsjN2zDToIiHG/view?usp=sharing"><b>CV</b></a>
 - <a style="color: #60c17d;" href="https://drive.google.com/file/d/14BaMhvdqQ0m2UlOLqNxphoMbb_JV1GI_/view?usp=sharing"><b>Research Statement</b></a>
 - <a style="color: #60c17d;" href="https://drive.google.com/file/d/14Q4GfJ-fNzEV8DzS7Qi5m5OPCQLrzjp1/view?usp=sharing"><b>Personal Statement</b></a>
 
