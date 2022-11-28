@@ -21,6 +21,24 @@ I also love to crossfit, freediving, hiking and camping!
 - <a style="color: #60c17d;" href="https://drive.google.com/file/d/14Q4GfJ-fNzEV8DzS7Qi5m5OPCQLrzjp1/view?usp=sharing"><b>Personal Statement</b></a>
 
 ---
+### Selected Projects:
+
+##### A Dual-Cycled Cross-View Transformer Network for Unified Road Layout Estimation and 3D Object Detection in the Bird’s-Eye-View, 2022, *Curie Kim, and Ue-Hwan Kim* [2023 ICRA Submitted]
+
+<a href="{{site.baseurl}}/projects/1/"><img class="fit-picture" width="360"
+     src="https://user-images.githubusercontent.com/17980462/193684819-f0e9b9c0-689d-4cf4-b6d2-a66187eca57f.png"></a>
+
+##### Self-supervised 3D Object Detection from Monocular Pseudo-LiDAR, 2022, *Curie Kim, Ue-Hwan Kim, and Jong-Hwan Kim* [2022 IEEE MFI]
+
+<a href="{{site.baseurl}}/projects/2/"><img class="fit-picture" width="360"
+     src="https://user-images.githubusercontent.com/17980462/193684729-6ac229a2-7b32-40b0-a63b-01b99669df89.png"></a>
+
+##### Deep Q-Network for AI Soccer, 2022, *Curie Kim, Yewon Hwang, Jong-Hwan Kim* [2022 RiTA]
+
+<a href="{{site.baseurl}}/projects/3/"><img class="fit-picture" width="360"
+     src="https://user-images.githubusercontent.com/17980462/193684174-f178dee2-0975-47ea-8fe4-663d325c20a6.png"></a>
+
+---
 <span style="font-size:90%;  color:grey">**Contact Information**<br>
 Room# 402, GIST C11, Cheomdangwagi-ro 123, Gwangju, Republic of Korea<br>
 Email: curie3170@gmail.com</span>  
