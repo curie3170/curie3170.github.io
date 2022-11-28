@@ -40,7 +40,7 @@ I also love to crossfit, freediving, hiking and camping!
 
 ---
 <span style="font-size:90%;  color:grey">**Contact Information**<br>
-Room# 402, GIST C11, Cheomdangwagi-ro 123, Gwangju, Republic of Korea<br>
+Room# 402, GIST C11, Cheomdangwagi-ro 123, Gwangju, South Korea<br>
 Email: curie3170@gmail.com</span>  
 
 
