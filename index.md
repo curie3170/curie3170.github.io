@@ -3,7 +3,7 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: Profile_CurieKim.jpg
+  image: Profile_CurieKim.png
 published: true
 ---
 Hello, I am Curie Kim, 1st year PhD student in Computer Science Department at Univerity of Maryland, College Park. I am focusing on deep learning, especially 3D computer vision, point cloud applications for autonomous driving and robot vision. 
