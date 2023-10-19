@@ -6,10 +6,9 @@ profile:
   image: Profile_CurieKim.jpg
 published: true
 ---
-Hello, I am Curie Kim, currently working as a Research Scientist at [the ACSL](https://uehwan.github.io/) of Gwangju Institute of Science and Technology (GIST).
-I am focusing on deep learning, especially 3D computer vision and SLAM for autonomous driving and robot vision. 
+Hello, I am Curie Kim, 1st year PhD student in Computer Science Department at Univerity of Maryland, College Park. I am focusing on deep learning, especially 3D computer vision, point cloud applications for autonomous driving and robot vision. 
 
-Before joining GIST, I worked for 20 months as a CMOS image sensor software developer at [Samsung Electronics](https://semiconductor.samsung.com/us/image-sensor/)' Advanced Sensor Development Team.
+Before joining UMD, I worked for 2 years as a CMOS image sensor software developer at [Samsung Electronics](https://semiconductor.samsung.com/us/image-sensor/)' Advanced Sensor Development Team and worked for 1 year as  a Research Scientist at [the ACSL](https://uehwan.github.io/) of Gwangju Institute of Science and Technology (GIST).
 I earned my M.S. in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) in 2021 under the guidance of Prof. Jong-Hwan Kim at [the RIT Lab](https://rit.kaist.ac.kr/).
 I recieved my B.S. in Electrical Engineering from Korea University in 2019. 
 
