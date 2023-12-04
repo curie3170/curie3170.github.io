@@ -22,7 +22,7 @@ I also love to crossfit, freediving, hiking and camping!
 ---
 ### Selected Projects:
 
-##### A Dual-Cycled Cross-View Transformer Network for Unified Road Layout Estimation and 3D Object Detection in the Bird’s-Eye-View, 2022, *Curie Kim, and Ue-Hwan Kim* [2023 ICRA Submitted]
+##### A Dual-Cycled Cross-View Transformer Network for Unified Road Layout Estimation and 3D Object Detection in the Bird’s-Eye-View, 2022, *Curie Kim, and Ue-Hwan Kim* [2023 Ubiquitous Robots]
 
 <a href="{{site.baseurl}}/projects/1/"><img class="fit-picture" width="360"
      src="https://user-images.githubusercontent.com/17980462/193684819-f0e9b9c0-689d-4cf4-b6d2-a66187eca57f.png"></a>
