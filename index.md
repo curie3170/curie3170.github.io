@@ -8,9 +8,7 @@ published: true
 ---
 Hello, I am a 1st year Computer Science PhD student working with professor [Cunxi Yu](https://ycunxi.github.io/cunxiyu/), in Univerity of Maryland, College Park. I am focusing on utilizing machine learning in circuit reasoning and designing circuits as an application of Electronic Design Automation. 
 
-Before joining UMD, I worked for 2 years as a CMOS image sensor software developer at [Samsung Electronics](https://semiconductor.samsung.com/us/image-sensor/)' Advanced Sensor Development Team and worked for 1 year as  a Research Scientist at [the ACSL](https://uehwan.github.io/) of Gwangju Institute of Science and Technology (GIST).
-I earned my M.S. in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) in 2021 under the guidance of Prof. Jong-Hwan Kim at [the RIT Lab](https://rit.kaist.ac.kr/).
-I recieved my B.S. in Electrical Engineering from Korea University in 2019. 
+Before joining UMD, I worked for 2 years as a CMOS image sensor software developer at [Samsung Electronics](https://semiconductor.samsung.com/us/image-sensor/)' Advanced Sensor Development Team. I earned my M.S., and B.S. in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) and Electrical Engineering from Korea University respectively. 
 
 I also love to crossfit, freediving, hiking and camping!
 
