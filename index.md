@@ -3,7 +3,7 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: IMG_6293.jpeg
+  image: IMG_9376.jpeg
 published: true
 ---
 Hello, I am a 1st year Computer Science PhD student working with professor [Cunxi Yu](https://ycunxi.github.io/cunxiyu/), in Univerity of Maryland, College Park. I am focusing on utilizing machine learning in circuit reasoning and designing circuits as an application of Electronic Design Automation. 
