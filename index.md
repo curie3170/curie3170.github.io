@@ -6,7 +6,6 @@ profile:
   image: IMG_9376.jpeg
 published: true
 ---
-### 👋 About Me
 Hello, I am a 1st year Computer Science PhD student working with professor [Cunxi Yu](https://ycunxi.github.io/cunxiyu/), in Univerity of Maryland, College Park. I am focusing on utilizing machine learning in circuit reasoning and designing circuits as an application of Electronic Design Automation. 
 
 Before joining UMD, I worked for 2 years as a CMOS image sensor software developer at Samsung Electronics Advanced Sensor Development Team. I earned my M.S., and B.S. in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) and Electrical Engineering from Korea University respectively. 
