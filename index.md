@@ -10,19 +10,17 @@ Hello, I am a 3rd year Computer Science PhD student working with professor [Cunx
 
 Before joining UMD, I worked for 2 years as a CMOS image sensor software developer at Samsung Electronics Advanced Sensor Development Team. I earned my M.S., and B.S. in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) and Electrical Engineering from Korea University respectively. 
 
-I also love to crossfit, freediving, hiking and camping!
+I also love to crossfit, freediving, and hiking!
 
 ### 📌 News
 
-- **[May 2026]** Joining *Nvidia Research* as a PhD Summer intern!
+- **[May 2026]** Joining *Nvidia Design Automation Research Group* as a PhD Summer intern!
 - **[Jun 2025]** Acknowledged in the paper *[Differentiable Quadratic Optimization for the Maximum Independent Set Problem](https://arxiv.org/html/2406.19532v6)*, accepted at **ICML 2025**. 
 
 ### 📂 Also, check out:
 - <a style="color: #60c17d;" href="https://drive.google.com/file/d/1F5oNitwe9ol-6dXT0JC50cQqaNhdSVwB/view?usp=share_link"><b>CV</b></a>
-- <a style="color: #60c17d;" href="https://drive.google.com/file/d/14BaMhvdqQ0m2UlOLqNxphoMbb_JV1GI_/view?usp=sharing"><b>Research Statement</b></a>
-- <a style="color: #60c17d;" href="https://drive.google.com/file/d/14Q4GfJ-fNzEV8DzS7Qi5m5OPCQLrzjp1/view?usp=sharing"><b>Personal Statement</b></a>
 
-
+<!--
 ### 🧠 Selected Projects:
 
 ##### A Dual-Cycled Cross-View Transformer Network for Unified Road Layout Estimation and 3D Object Detection in the Bird’s-Eye-View, 2022, *Curie Kim, and Ue-Hwan Kim* [2023 Ubiquitous Robots]
@@ -41,6 +39,7 @@ I also love to crossfit, freediving, hiking and camping!
      src="https://user-images.githubusercontent.com/17980462/193684174-f178dee2-0975-47ea-8fe4-663d325c20a6.png"></a>
 
 ---
+-->
 <span style="font-size:90%;  color:grey">**Contact Information**<br>
 Email: curie3170@gmail.com</span>  
 
