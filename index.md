@@ -41,7 +41,7 @@ I also love to crossfit, freediving, and hiking!
 ---
 -->
 <span style="font-size:90%;  color:grey">**Contact Information**<br>
-Email: curie3170@gmail.com</span>  
+Email: curiekim@umd.edu</span>  
 
 
 
