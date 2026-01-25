@@ -3,7 +3,7 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: Hornbake.jpg
+  image: IMG_9376.jpeg
 published: true
 ---
 Hello, I am a 3rd year Computer Science PhD student working with professor [Cunxi Yu](https://ycunxi.github.io/cunxiyu/), in Univerity of Maryland, College Park. I am focusing on utilizing machine learning in circuit reasoning and designing circuits as an application of Electronic Design Automation. 
@@ -14,6 +14,7 @@ I also love to crossfit, freediving, hiking and camping!
 
 ### 📌 News
 
+- **[May 2026]** Joining *Nvidia Research* as a PhD Summer intern
 - **[Jun 2025]** Contributed to the evaluation of a method for large-scale ER graphs in the paper *[Differentiable Quadratic Optimization for the Maximum Independent Set Problem](https://arxiv.org/html/2406.19532v6)*, accepted at **ICML 2025**. My work was acknowledged in the publication.
 
 ### 📂 Also, check out:
