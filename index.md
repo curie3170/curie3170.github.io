@@ -14,8 +14,8 @@ I also love to crossfit, freediving, hiking and camping!
 
 ### 📌 News
 
-- **[May 2026]** Joining *Nvidia Research* as a PhD Summer intern
-- **[Jun 2025]** Contributed to the evaluation of a method for large-scale ER graphs in the paper *[Differentiable Quadratic Optimization for the Maximum Independent Set Problem](https://arxiv.org/html/2406.19532v6)*, accepted at **ICML 2025**. My work was acknowledged in the publication.
+- **[May 2026]** Joining *Nvidia Research* as a PhD Summer intern!
+- **[Jun 2025]** Acknowledged in the paper *[Differentiable Quadratic Optimization for the Maximum Independent Set Problem](https://arxiv.org/html/2406.19532v6)*, accepted at **ICML 2025**. 
 
 ### 📂 Also, check out:
 - <a style="color: #60c17d;" href="https://drive.google.com/file/d/1F5oNitwe9ol-6dXT0JC50cQqaNhdSVwB/view?usp=share_link"><b>CV</b></a>
