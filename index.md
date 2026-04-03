@@ -6,7 +6,7 @@ profile:
   image: IMG_9376.jpeg
 published: true
 ---
-Hello, I am a 3rd year Computer Science PhD student working with professor [Cunxi Yu](https://ycunxi.github.io/cunxiyu/), in Univerity of Maryland, College Park. I am focusing on utilizing machine learning in circuit reasoning and designing circuits as an application of Electronic Design Automation. 
+Hello, I am a 3rd year Computer Science PhD student working with professor [Cunxi Yu](https://ycunxi.github.io/cunxiyu/), in University of Maryland, College Park. I am focusing on utilizing machine learning in circuit reasoning and designing circuits as an application of Electronic Design Automation. 
 
 Before joining UMD, I worked for 2 years as a CMOS image sensor software developer at Samsung Electronics Advanced Sensor Development Team. I earned my M.S., and B.S. in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) and Electrical Engineering from Korea University respectively. 
 
@@ -14,8 +14,8 @@ I also love to crossfit, freediving, and hiking!
 
 ### 📌 News
 - **[May 2026]** Joining *Nvidia Design Automation Research Group* as a PhD Summer intern!
-- **[Mar 2026]** First-authored paper 🔗*[GaloisSAT: Differentiable Boolean Satisfiability](https://arxiv.org/pdf/2603.28796)* released on arXiv.
-- **[Jun 2025]** Acknowledged in the paper 🔗*[Differentiable Quadratic Optimization for the Maximum Independent Set Problem](https://arxiv.org/html/2406.19532v6)*, accepted at **ICML 2025**. 
+- **[Mar 2026]** First-authored paper 🔗[GaloisSAT: Differentiable Boolean Satisfiability](https://arxiv.org/pdf/2603.28796) released on arXiv.
+- **[Jun 2025]** Acknowledged in the paper 🔗[Differentiable Quadratic Optimization for the Maximum Independent Set Problem](https://arxiv.org/html/2406.19532v6), accepted at **ICML 2025**. 
 
 ### 📂 Also, check out:
 - <a style="color: #60c17d;" href="https://drive.google.com/file/d/1F5oNitwe9ol-6dXT0JC50cQqaNhdSVwB/view?usp=share_link"><b>CV</b></a>
