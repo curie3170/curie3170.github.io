@@ -13,8 +13,8 @@ Before joining UMD, I worked for 2 years as a CMOS image sensor software develop
 I also love to crossfit, freediving, and hiking!
 
 ### 📌 News
-
 - **[May 2026]** Joining *Nvidia Design Automation Research Group* as a PhD Summer intern!
+- **[Mar 2026]** First-authored paper *[GaloisSAT: Differentiable Boolean Satisfiability](https://arxiv.org/pdf/2603.28796)* released on Arxiv.
 - **[Jun 2025]** Acknowledged in the paper *[Differentiable Quadratic Optimization for the Maximum Independent Set Problem](https://arxiv.org/html/2406.19532v6)*, accepted at **ICML 2025**. 
 
 ### 📂 Also, check out:
